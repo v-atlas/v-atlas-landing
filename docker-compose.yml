@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  v-atlas-landing:
+    image: ghcr.io/v-atlas/v-atlas-poc/v-atlas-landing:latest
+    build:
+      context: ./
+      dockerfile: Dockerfile
