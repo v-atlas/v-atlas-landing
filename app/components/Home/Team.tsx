@@ -54,7 +54,7 @@ const Team = () => {
 
                 <li>
                   <a
-                    href='#'
+                    href='https://github.com/Aliemeka'
                     className='text-gray-500 hover:text-gray-900 dark:hover:text-white'
                   >
                     <svg
@@ -174,7 +174,7 @@ const Team = () => {
 
                 <li>
                   <a
-                    href='#'
+                    href='https://github.com/boxpositron'
                     className='text-gray-500 hover:text-gray-900 dark:hover:text-white'
                   >
                     <svg
@@ -214,7 +214,10 @@ const Team = () => {
 
               <ul className='flex space-x-4 sm:mt-5'>
                 <li>
-                  <a href='#' className='text-gray-500 hover:text-white'>
+                  <a
+                    href='https://twitter.com/ClintondikeDL'
+                    className='text-gray-500 hover:text-white'
+                  >
                     <svg
                       className='w-5 h-5'
                       xmlns='http://www.w3.org/2000/svg'
