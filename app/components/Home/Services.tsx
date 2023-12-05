@@ -1,75 +1,183 @@
+import Image from 'next/image';
+
 const Services = () => {
   return (
-    <section className='py-20'>
-      <div className='sm:w-[80vw] lg:w-full max-w-6xl mx-auto px-5'>
-        <h2 className='font-bold text-3xl lg:text-5xl lg:leading-tight mb-5'>
-          V-Atlas for <span className='text-dogwood-rose'>Enterprise</span>
-        </h2>
-        <p className='mb-10'>Manage all your identities in one place</p>
-        <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5'>
-          <div className='space-y-5 py-10 px-4 rounded-lg border-2 bg-canary bg-opacity-20 border-canary '>
-            <div>
-              <svg
-                xmlns='http://www.w3.org/2000/svg'
-                width='50'
-                height='50'
-                fill='#c62e65'
-                viewBox='0 0 256 256'
-                xmlSpace='preserve'
-              >
-                <path
-                  d='M200,32H56a8,8,0,0,0-8,8V216a8,8,0,0,0,8,8H200a8,8,0,0,0,8-8V40A8,8,0,0,0,200,32ZM128,168a32,32,0,1,1,32-32A32,32,0,0,1,128,168Z'
-                  opacity='0.2'
-                ></path>
-                <path d='M75.19,198.4a8,8,0,0,0,11.21-1.6,52,52,0,0,1,83.2,0,8,8,0,1,0,12.8-9.6A67.88,67.88,0,0,0,155,165.51a40,40,0,1,0-53.94,0A67.88,67.88,0,0,0,73.6,187.2,8,8,0,0,0,75.19,198.4ZM128,112a24,24,0,1,1-24,24A24,24,0,0,1,128,112Zm72-88H56A16,16,0,0,0,40,40V216a16,16,0,0,0,16,16H200a16,16,0,0,0,16-16V40A16,16,0,0,0,200,24Zm0,192H56V40H200ZM88,64a8,8,0,0,1,8-8h64a8,8,0,0,1,0,16H96A8,8,0,0,1,88,64Z'></path>
-              </svg>
+    <section className='py-20 space-y-10'>
+      <div className='sm:w-[80vw] flex flex-col lg:flex-row items-center gap-4 lg:w-full max-w-6xl mx-auto px-5'>
+        <div className='w-[80%] lg:w-full basis-1/2'>
+          <Image
+            src='/data.jpg'
+            width={1000}
+            height={700}
+            alt='manage data across platforms'
+          />
+        </div>
+        <div className='basis-1/2'>
+          <h2 className='font-bold text-2xl lg:text-4xl lg:leading-tight mb-5'>
+            What is <span className='text-dogwood-rose'>V-Atlas?</span>
+          </h2>
+          <p className='mb-10'>
+            V-Atlas is a Web5-based application that empowers you to create a
+            secure, decentralized identity and manage your data across different
+            platforms and services.
+          </p>
+          <h3 className='text-2xl font-semibold mb-5'>Benefits</h3>
+          <div className='space-y-3'>
+            <div className='flex gap-3 items-center'>
+              <div className='border rounded-full p-3'><Image src={'/owner.svg'} width={30} height={30} alt="decorative icon" /></div>
+              <div>
+                <h4 className='font-medium'>Data Ownership</h4>
+                <p className='text-sm text-gray-400'>
+                  You own and control your data, not tech giants.
+                </p>
+              </div>
             </div>
-            <h3 className='font-semibold'>Decentralized Identity</h3>
-            <p className='w-[80%]'>
-              Own and control your unique online identifier.
-            </p>
+            <div className='flex gap-3 items-center'>
+              <div className='border rounded-full p-3'><Image src={'/share-black.svg'} width={30} height={30} alt="decorative icon" /></div>
+              <div>
+                <h4 className='font-medium'>Enhanced Privacy</h4>
+                <p className='text-sm text-gray-400'>
+                  Share your data selectively and securely.
+                </p>
+              </div>
+            </div>
+            <div className='flex gap-3 items-center'>
+              <div className='border rounded-full p-3'><Image src={'/management.svg'} width={30} height={30} alt="decorative icon" /></div>
+              <div>
+                <h4 className='font-medium'>Simplified Data Management</h4>
+                <p className='text-sm text-gray-400'>
+                  Access and manage your data from one central location.
+                </p>
+              </div>
+            </div>
+            <div className='flex gap-3 items-center'>
+              <div className='border rounded-full p-3'><Image src={'/network.svg'} width={30} height={30} alt="decorative icon" /></div>
+              <div>
+                <h4 className='font-medium'>Streamlined Data Sharing</h4>
+                <p className='text-sm text-gray-400'>
+                  Easily import and export data between various services.
+                </p>
+              </div>
+            </div>
+            <div className='flex gap-3 items-center'>
+              <div className='border rounded-full p-3'><Image src={'/privacy.svg'} width={30} height={30} alt="decorative icon" /></div>
+              <div>
+                <h4 className='font-medium'>Enhanced Security</h4>
+                <p className='text-sm text-gray-400'>
+                  Your data is stored on a secure blockchain network, not on
+                  centralized servers.
+                </p>
+              </div>
+            </div>
           </div>
-          <div className='space-y-5 py-10 px-4 rounded-lg border-2 bg-emerald bg-opacity-20 border-emerald '>
-            <div>
-              <svg
-                xmlns='http://www.w3.org/2000/svg'
-                width='50'
-                height='50'
-                fill='#c62e65'
-                viewBox='0 0 256 256'
-                xmlSpace='preserve'
-              >
-                <path
-                  d='M216,152v48a8,8,0,0,1-8,8H48a8,8,0,0,1-8-8V152a8,8,0,0,1,8-8H208A8,8,0,0,1,216,152ZM208,48H48a8,8,0,0,0-8,8v48a8,8,0,0,0,8,8H208a8,8,0,0,0,8-8V56A8,8,0,0,0,208,48Z'
-                  opacity='0.2'
-                ></path>
-                <path d='M208,136H48a16,16,0,0,0-16,16v48a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V152A16,16,0,0,0,208,136Zm0,64H48V152H208v48Zm0-160H48A16,16,0,0,0,32,56v48a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V56A16,16,0,0,0,208,40Zm0,64H48V56H208v48ZM192,80a12,12,0,1,1-12-12A12,12,0,0,1,192,80Zm0,96a12,12,0,1,1-12-12A12,12,0,0,1,192,176Z'></path>
-              </svg>
+        </div>
+      </div>
+      <div className='sm:w-[80vw] flex flex-col lg:flex-row-reverse items-center gap-4 lg:w-full max-w-6xl mx-auto px-5'>
+        <div className='w-[80%] lg:w-full basis-1/2'>
+          <Image
+            src='/individual.jpg'
+            width={500}
+            height={500}
+            className='ml-auto'
+            alt='manage data across platforms'
+          />
+        </div>
+        <div className='basis-1/2'>
+          <h2 className='font-bold text-2xl lg:text-4xl lg:leading-tight mb-5'>
+            For <span className='text-dogwood-rose'>Individuals</span>
+          </h2>
+          <div className='space-y-3'>
+            <div className='flex gap-3 items-center'>
+              <div className='border rounded-full p-3'><Image src={'/footprint.svg'} width={30} height={30} alt="decorative icon" /></div>
+              <div>
+                <h4 className='font-medium'>Take control of your online presence</h4>
+                <p className='text-sm text-gray-400'>
+                Manage your digital footprint and decide what information is shared online.
+                </p>
+              </div>
             </div>
-            <h3 className='font-semibold'>Secure Data Storage</h3>
-            <p className='w-[80%]'>
-              Store your data on a secure decentralized spaces.
-            </p>
+            <div className='flex gap-3 items-center'>
+              <div className='border rounded-full p-3'><Image src={'/secure.svg'} width={30} height={30} alt="decorative icon" /></div>
+              <div>
+                <h4 className='font-medium'>Protect your privacy</h4>
+                <p className='text-sm text-gray-400'>
+                Secure your sensitive data from unauthorized access and breaches.
+                </p>
+              </div>
+            </div>
+            <div className='flex gap-3 items-center'>
+              <div className='border rounded-full p-3'><Image src={'/manage-data.svg'} width={30} height={30} alt="decorative icon" /></div>
+              <div>
+                <h4 className='font-medium'>Simplify your digital life</h4>
+                <p className='text-sm text-gray-400'>
+                Manage all your data in one place, eliminating the need for multiple accounts and passwords.
+                </p>
+              </div>
+            </div>
+            <div className='flex gap-3 items-center'>
+              <div className='border rounded-full p-3'><Image src={'/id.svg'} width={30} height={30} alt="decorative icon" /></div>
+              <div>
+                <h4 className='font-medium'>Unlock new possibilities</h4>
+                <p className='text-sm text-gray-400'>
+                Use your decentralized identity to access services and applications that require verified identities.
+                </p>
+              </div>
+            </div>
+
           </div>
-          <div className='space-y-5 py-10 px-4 rounded-lg border-2 bg-honolulu-blue bg-opacity-20 border-honolulu-blue '>
-            <div>
-              <svg
-                xmlns='http://www.w3.org/2000/svg'
-                width='50'
-                height='50'
-                fill='#c62e65'
-                viewBox='0 0 256 256'
-                xmlSpace='preserve'
-              >
-                <path
-                  d='M208,200a32,32,0,1,1-32-32A32,32,0,0,1,208,200ZM176,88a32,32,0,1,0-32-32A32,32,0,0,0,176,88Z'
-                  opacity='0.2'
-                ></path>
-                <path d='M176,160a39.89,39.89,0,0,0-28.62,12.09l-46.1-29.63a39.8,39.8,0,0,0,0-28.92l46.1-29.63a40,40,0,1,0-8.66-13.45l-46.1,29.63a40,40,0,1,0,0,55.82l46.1,29.63A40,40,0,1,0,176,160Zm0-128a24,24,0,1,1-24,24A24,24,0,0,1,176,32ZM64,152a24,24,0,1,1,24-24A24,24,0,0,1,64,152Zm112,72a24,24,0,1,1,24-24A24,24,0,0,1,176,224Z'></path>
-              </svg>
+        </div>
+      </div>
+      <div className='sm:w-[80vw] flex flex-col lg:flex-row items-center gap-4 lg:w-full max-w-6xl mx-auto px-5'>
+        <div className='w-[80%] lg:w-full basis-1/2'>
+          <Image
+            src='/business.jpg'
+            width={600}
+            height={400}
+            alt='manage data across platforms'
+          />
+        </div>
+        <div className='basis-1/2'>
+          <h2 className='font-bold text-2xl lg:text-4xl lg:leading-tight mb-5'>
+            For <span className='text-dogwood-rose'>Businesses</span>
+          </h2>
+          <div className='space-y-3'>
+            <div className='flex gap-3 items-center'>
+              <div className='border rounded-full p-3'><Image src={'/secure-company.svg'} width={30} height={30} alt="decorative icon" /></div>
+              <div>
+                <h4 className='font-medium'>Empower your employees</h4>
+                <p className='text-sm text-gray-400'>
+                Provide your team with secure access to the resources they need while protecting company data.
+                </p>
+              </div>
             </div>
-            <h3 className='font-semibold'>Selective Data Sharing</h3>
-            <p className='w-[80%]'>Choose what data to share and with whom.</p>
+            <div className='flex gap-3 items-center'>
+              <div className='border rounded-full p-3'><Image src={'/compliance.svg'} width={30} height={30} alt="decorative icon" /></div>
+              <div>
+                <h4 className='font-medium'>Ensure data compliance</h4>
+                <p className='text-sm text-gray-400'>
+                Streamline data management processes and comply with industry regulations with ease.
+                </p>
+              </div>
+            </div>
+            <div className='flex gap-3 items-center'>
+              <div className='border rounded-full p-3'><Image src={'/risk.svg'} width={30} height={30} alt="decorative icon" /></div>
+              <div>
+                <h4 className='font-medium'>Reduce security risks</h4>
+                <p className='text-sm text-gray-400'>
+                Minimize the risk of data breaches and cyberattacks with decentralized data storage.
+                </p>
+              </div>
+            </div>
+            <div className='flex gap-3 items-center'>
+              <div className='border rounded-full p-3'><Image src={'/collaboration.svg'} width={30} height={30} alt="decorative icon" /></div>
+              <div>
+                <h4 className='font-medium'>Improve collaboration</h4>
+                <p className='text-sm text-gray-400'>
+                Facilitate secure and efficient data sharing between employees and partners.
+                </p>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>

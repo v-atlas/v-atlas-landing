@@ -1,39 +1,31 @@
-import Image from "next/image";
+import Image from 'next/image';
+import { Permanent_Marker } from 'next/font/google';
+
+const permanentMarker = Permanent_Marker({subsets: ['latin'], weight: ['400']});
 
 const Hero = () => {
   return (
-    <section className='min-h-[90vh] pt-10 lg:mt-0 grid place-content-center bg-black text-antiflash-white'>
-      <div className='flex flex-col lg:flex-row items-center sm:w-[80vw] lg:w-full max-w-6xl mx-auto px-5 lg:pr-0 justify-between gap-5'>
-        <div className='lg:basis-1/2'>
-          <h1 className='font-bold text-3xl lg:text-6xl lg:leading-tight'>
-            <span className='text-dogwood-rose'>Secure</span> decentralized data
-            management for everyone.
+    <section className='min-h-[90vh] py-10 lg:mt-0 grid place-content-center bg-denim text-antiflash-white'>
+
+      <div className='relative sm:w-[80vw] lg:w-full max-w-6xl mx-auto px-5 lg:pr-0'>
+        <div className=''>
+          <h1 className='font-bold text-2xl md:text-4xl lg:text-5xl lg:leading-tight'>
+            <span className='text-dogwood-rose'>Reimagine</span> Data Ownership.
+            <br />
+            <span className='text-dogwood-rose'>Control</span> Your Digital
+            Identity with <span className='relative'>V-Atlas.<Image className='absolute -bottom-2 left-0' src={'/curve.svg'} width={200} height={200} alt='lock' /></span>
           </h1>
-          <p className='mt-4 text-sm sm:text-base lg:text-lg mb-10'>
-            A secure decentralized that gives individuals and businesses control
-            over their identity and data. Take charge of your digital presence
-            effortlessly, ensuring security and autonomy in the online sphere.
+          <p className='mt-4 text-sm sm:text-base lg:text-lg mb-10 md:w-3/4'>
+            Unlock the full potential of your online presence with a secure,
+            decentralized platform that puts you in control.
           </p>
-          <h3 className='pb-2 font-semibold'>
-            Get started with V-Atlas today!
-          </h3>
-          <div className='p-2 flex flex-col md:flex-row gap-2 w-full border-2 border-honolulu-blue rounded-lg shadow-lg'>
-            <div className='md:w-[70%]'>
-              <input
-                name='email'
-                className='w-full h-full text-black p-4 md:p-2 bg-antiflash-white border rounded-lg border-honolulu-blue'
-                type='email'
-                inputMode='email'
-                placeholder='Please enter your email address'
-              />
-            </div>
-            <button className='p-4 md:w-[30%] bg-honolulu-blue text-antiflash-white rounded-lg'>
-              Get Started
+          <button className='p-4 bg-black border border-antiflash-white rounded-lg hover:bg-honolulu-blue cursor-pointer transition duration-300 ease-in-out'>
+              Watch the Video
             </button>
-          </div>
         </div>
-        <div>
-          <Image src={"/lock.png"} width={500} height={500} alt='lock' />
+        <div className='absolute -bottom-30 left-5 md:-left-5 md:rotate-45' >
+          <Image src={'/arrow.svg'} width={100} height={100} alt='lock' />
+        <p className={`${permanentMarker.className} text-xs`}>Learn more</p>
         </div>
       </div>
     </section>
