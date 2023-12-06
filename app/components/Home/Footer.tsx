@@ -3,40 +3,41 @@ const Footer = () => {
     <footer className='py-20'>
       <div className='sm:w-[90vw] lg:w-full max-w-6xl mx-auto px-5'>
         <div className='pt-16 pb-12 px-5 md:px-12 bg-black text-antiflash-white rounded-3xl mb-20'>
-          <h2 className='mb-10 text-3xl md:text-6xl font-bold'>Get Started Today!</h2>
-          <div className="border px-3 py-6 hover:bg-honolulu-blue cursor-pointer transition duration-300 ease-in-out">
-            <h4 className="text-lg font-semibold">Individuals</h4>
-          <p className='text-sm md:text-base'>
-            Get started with V-Atlas today and experience the power
-            of data ownership.
-          </p>
-          </div>
-          <div className="border px-3 py-6 hover:bg-honolulu-blue cursor-pointer transition duration-300 ease-in-out">
-            <h4 className="text-lg font-semibold">Businesses</h4>
+          <h2 className='mb-10 text-3xl md:text-6xl font-bold'>
+            Get Started Today!
+          </h2>
+          <div className='border px-3 py-6 hover:bg-honolulu-blue cursor-pointer transition duration-300 ease-in-out'>
+            <h4 className='text-lg font-semibold'>Individuals</h4>
             <p className='text-sm md:text-base'>
-            Contact us to schedule a personalized demo and discover
-            how V-Atlas can transform your data management strategy.
+              Get started with VAtlas today and experience the power of data
+              ownership.
             </p>
           </div>
-          <div className="border px-3 py-6 hover:bg-honolulu-blue cursor-pointer transition duration-300 ease-in-out">
-            <h4 className="text-lg font-semibold">Explore our resources</h4>
+          <div className='border px-3 py-6 hover:bg-honolulu-blue cursor-pointer transition duration-300 ease-in-out'>
+            <h4 className='text-lg font-semibold'>Businesses</h4>
             <p className='text-sm md:text-base'>
-            Learn more about V-Atlas features, benefits,
-            and success stories.
+              Contact us to schedule a personalized demo and discover how VAtlas
+              can transform your data management strategy.
             </p>
           </div>
-          <div className="border px-3 py-6 hover:bg-honolulu-blue cursor-pointer transition duration-300 ease-in-out">
-            <h4 className="text-lg font-semibold">Join our community</h4>
+          <div className='border px-3 py-6 hover:bg-honolulu-blue cursor-pointer transition duration-300 ease-in-out'>
+            <h4 className='text-lg font-semibold'>Explore our resources</h4>
             <p className='text-sm md:text-base'>
-            Connect with other V-Atlas users and experts to
-            share experiences and ask questions.
+              Learn more about VAtlas features, benefits, and success stories.
             </p>
           </div>
-  
+          <div className='border px-3 py-6 hover:bg-honolulu-blue cursor-pointer transition duration-300 ease-in-out'>
+            <h4 className='text-lg font-semibold'>Join our community</h4>
+            <p className='text-sm md:text-base'>
+              Connect with other VAtlas users and experts to share experiences
+              and ask questions.
+            </p>
+          </div>
         </div>
         <div className='grid grid-cols-2 lg:grid-cols-4 gap-3 border-t pt-8 border-antiflash-white'>
-          <div>V-Atlas
-            <div className="mt-8 space-y-3">
+          <div>
+            VAtlas
+            <div className='mt-8 space-y-3'>
               <div>Privacy policy</div>
               <div>Terms of service</div>
             </div>
@@ -44,7 +45,7 @@ const Footer = () => {
           <div>
             251 Little Falls Drive, Wilmington, New Castle County, Delaware.
           </div>
-          <div>hello@v-atlas.com</div>
+          <div>hello@VAtlas.com</div>
           <div className='flex gap-4 flex-wrap'>
             <div>X</div>
             <div>Instagram</div>
