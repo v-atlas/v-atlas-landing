@@ -53,7 +53,7 @@ const Target = () => {
             <h3 className='font-semibold'>Seamless Integrations</h3>
             <p>
               Connect with all your favorite services and applications with
-              VAtlas&apos;s integrated ecosystem
+              V-Atlas&lsquo;s integrated ecosystem
             </p>
           </div>
           <div className='space-y-5 py-10 px-4 rounded-lg border-2 bg-canary bg-opacity-20 border-canary '>
