@@ -3,7 +3,7 @@ import Image from "next/image";
 const Team = () => {
   return (
     <section className=''>
-      <div className='py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 '>
+      <div className='w-[80vw] sm:w-full py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 '>
         <div className='mx-auto max-w-screen-sm text-center mb-8 lg:mb-16'>
           <h2 className='mb-4 text-4xl tracking-tight font-extrabold '>
             Our <span className='text-dogwood-rose'>Team</span>
@@ -31,7 +31,7 @@ const Team = () => {
               </h3>
               <span className='text-gray-400'>Software Engineer</span>
 
-              <ul className='flex space-x-4 sm:mt-5'>
+              <ul className='flex space-x-4 mt-5'>
                 <li>
                   <a
                     href='https://twitter.com/alliemeka'
@@ -91,7 +91,7 @@ const Team = () => {
               </h3>
               <span className='text-gray-400'>Frontend Developer</span>
 
-              <ul className='flex space-x-4 sm:mt-5'>
+              <ul className='flex space-x-4 mt-5'>
                 <li>
                   <a
                     href='https://twitter.com/what_is_a_swat'
@@ -151,7 +151,7 @@ const Team = () => {
               </h3>
               <span className='text-gray-400'>Engineering Manager</span>
 
-              <ul className='flex space-x-4 sm:mt-5'>
+              <ul className='flex space-x-4 mt-5'>
                 <li>
                   <a
                     href='https://twitter.com/boxpositron'
@@ -212,7 +212,7 @@ const Team = () => {
               </h3>
               <span className='text-gray-400'>Product Manager</span>
 
-              <ul className='flex space-x-4 sm:mt-5'>
+              <ul className='flex space-x-4 mt-5'>
                 <li>
                   <a
                     href='https://twitter.com/ClintondikeDL'
