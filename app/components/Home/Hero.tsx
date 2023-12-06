@@ -9,7 +9,7 @@ const permanentMarker = Permanent_Marker({
 const Hero = () => {
   return (
     <section className='min-h-[90vh] py-10 lg:mt-0 grid place-content-center bg-denim text-antiflash-white text-center'>
-      <div className='relative sm:w-[80vw] lg:w-full max-w-6xl mx-auto px-5 lg:pr-0'>
+      <div className='relative w-[90vw] lg:w-full max-w-6xl mx-auto'>
         <div className=''>
           <h1 className='font-bold text-2xl md:text-4xl lg:text-5xl lg:leading-tight'>
             <span className='text-dogwood-rose'>Reimagine</span> Data Ownership.
