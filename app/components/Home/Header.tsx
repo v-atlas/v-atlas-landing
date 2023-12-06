@@ -12,7 +12,7 @@ const Header = () => {
     <header className='h-20 pt-3 bg-denim text-antiflash-white'>
       <div className='flex justify-between items-center max-w-6xl mx-auto px-5'>
         <h2 className='font-bold text-3xl italic'>VAtlas</h2>
-        <div className='flex flex-col md:flex-row gap-3'>
+        <div className='flex flex-col text-xs md:text-base md:flex-row gap-3'>
           <Link
             href='https://my.vatlas.dev'
             className='relative p-4 bg-honolulu-blue text-antiflash-white rounded-lg text-center hover:bg-antiflash-white hover:text-honolulu-blue cursor-pointer transition duration-300 ease-in-out'
