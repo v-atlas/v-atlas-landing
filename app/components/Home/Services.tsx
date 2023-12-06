@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from "next/image";
 
 const Services = () => {
   return (
@@ -14,17 +14,24 @@ const Services = () => {
         </div>
         <div className='basis-1/2'>
           <h2 className='font-bold text-2xl lg:text-4xl lg:leading-tight mb-5'>
-            What is <span className='text-dogwood-rose'>V-Atlas?</span>
+            What is <span className='text-dogwood-rose'>VAtlas?</span>
           </h2>
           <p className='mb-10'>
-            V-Atlas is a Web5-based application that empowers you to create a
+            VAtlas is a Web5-based application that empowers you to create a
             secure, decentralized identity and manage your data across different
             platforms and services.
           </p>
           <h3 className='text-2xl font-semibold mb-5'>Benefits</h3>
           <div className='space-y-3'>
             <div className='flex gap-3 items-center'>
-              <div className='border rounded-full p-3'><Image src={'/owner.svg'} width={30} height={30} alt="decorative icon" /></div>
+              <div className='border rounded-full p-3'>
+                <Image
+                  src={"/owner.svg"}
+                  width={30}
+                  height={30}
+                  alt='decorative icon'
+                />
+              </div>
               <div>
                 <h4 className='font-medium'>Data Ownership</h4>
                 <p className='text-sm text-gray-400'>
@@ -33,7 +40,14 @@ const Services = () => {
               </div>
             </div>
             <div className='flex gap-3 items-center'>
-              <div className='border rounded-full p-3'><Image src={'/share-black.svg'} width={30} height={30} alt="decorative icon" /></div>
+              <div className='border rounded-full p-3'>
+                <Image
+                  src={"/share-black.svg"}
+                  width={30}
+                  height={30}
+                  alt='decorative icon'
+                />
+              </div>
               <div>
                 <h4 className='font-medium'>Enhanced Privacy</h4>
                 <p className='text-sm text-gray-400'>
@@ -42,7 +56,14 @@ const Services = () => {
               </div>
             </div>
             <div className='flex gap-3 items-center'>
-              <div className='border rounded-full p-3'><Image src={'/management.svg'} width={30} height={30} alt="decorative icon" /></div>
+              <div className='border rounded-full p-3'>
+                <Image
+                  src={"/management.svg"}
+                  width={30}
+                  height={30}
+                  alt='decorative icon'
+                />
+              </div>
               <div>
                 <h4 className='font-medium'>Simplified Data Management</h4>
                 <p className='text-sm text-gray-400'>
@@ -51,7 +72,14 @@ const Services = () => {
               </div>
             </div>
             <div className='flex gap-3 items-center'>
-              <div className='border rounded-full p-3'><Image src={'/network.svg'} width={30} height={30} alt="decorative icon" /></div>
+              <div className='border rounded-full p-3'>
+                <Image
+                  src={"/network.svg"}
+                  width={30}
+                  height={30}
+                  alt='decorative icon'
+                />
+              </div>
               <div>
                 <h4 className='font-medium'>Streamlined Data Sharing</h4>
                 <p className='text-sm text-gray-400'>
@@ -60,7 +88,14 @@ const Services = () => {
               </div>
             </div>
             <div className='flex gap-3 items-center'>
-              <div className='border rounded-full p-3'><Image src={'/privacy.svg'} width={30} height={30} alt="decorative icon" /></div>
+              <div className='border rounded-full p-3'>
+                <Image
+                  src={"/privacy.svg"}
+                  width={30}
+                  height={30}
+                  alt='decorative icon'
+                />
+              </div>
               <div>
                 <h4 className='font-medium'>Enhanced Security</h4>
                 <p className='text-sm text-gray-400'>
@@ -88,42 +123,75 @@ const Services = () => {
           </h2>
           <div className='space-y-3'>
             <div className='flex gap-3 items-center'>
-              <div className='border rounded-full p-3'><Image src={'/footprint.svg'} width={30} height={30} alt="decorative icon" /></div>
+              <div className='border rounded-full p-3'>
+                <Image
+                  src={"/footprint.svg"}
+                  width={30}
+                  height={30}
+                  alt='decorative icon'
+                />
+              </div>
               <div>
-                <h4 className='font-medium'>Take control of your online presence</h4>
+                <h4 className='font-medium'>
+                  Take control of your online presence
+                </h4>
                 <p className='text-sm text-gray-400'>
-                Manage your digital footprint and decide what information is shared online.
+                  Manage your digital footprint and decide what information is
+                  shared online.
                 </p>
               </div>
             </div>
             <div className='flex gap-3 items-center'>
-              <div className='border rounded-full p-3'><Image src={'/secure.svg'} width={30} height={30} alt="decorative icon" /></div>
+              <div className='border rounded-full p-3'>
+                <Image
+                  src={"/secure.svg"}
+                  width={30}
+                  height={30}
+                  alt='decorative icon'
+                />
+              </div>
               <div>
                 <h4 className='font-medium'>Protect your privacy</h4>
                 <p className='text-sm text-gray-400'>
-                Secure your sensitive data from unauthorized access and breaches.
+                  Secure your sensitive data from unauthorized access and
+                  breaches.
                 </p>
               </div>
             </div>
             <div className='flex gap-3 items-center'>
-              <div className='border rounded-full p-3'><Image src={'/manage-data.svg'} width={30} height={30} alt="decorative icon" /></div>
+              <div className='border rounded-full p-3'>
+                <Image
+                  src={"/manage-data.svg"}
+                  width={30}
+                  height={30}
+                  alt='decorative icon'
+                />
+              </div>
               <div>
                 <h4 className='font-medium'>Simplify your digital life</h4>
                 <p className='text-sm text-gray-400'>
-                Manage all your data in one place, eliminating the need for multiple accounts and passwords.
+                  Manage all your data in one place, eliminating the need for
+                  multiple accounts and passwords.
                 </p>
               </div>
             </div>
             <div className='flex gap-3 items-center'>
-              <div className='border rounded-full p-3'><Image src={'/id.svg'} width={30} height={30} alt="decorative icon" /></div>
+              <div className='border rounded-full p-3'>
+                <Image
+                  src={"/id.svg"}
+                  width={30}
+                  height={30}
+                  alt='decorative icon'
+                />
+              </div>
               <div>
                 <h4 className='font-medium'>Unlock new possibilities</h4>
                 <p className='text-sm text-gray-400'>
-                Use your decentralized identity to access services and applications that require verified identities.
+                  Use your decentralized identity to access services and
+                  applications that require verified identities.
                 </p>
               </div>
             </div>
-
           </div>
         </div>
       </div>
@@ -142,42 +210,73 @@ const Services = () => {
           </h2>
           <div className='space-y-3'>
             <div className='flex gap-3 items-center'>
-              <div className='border rounded-full p-3'><Image src={'/secure-company.svg'} width={30} height={30} alt="decorative icon" /></div>
+              <div className='border rounded-full p-3'>
+                <Image
+                  src={"/secure-company.svg"}
+                  width={30}
+                  height={30}
+                  alt='decorative icon'
+                />
+              </div>
               <div>
                 <h4 className='font-medium'>Empower your employees</h4>
                 <p className='text-sm text-gray-400'>
-                Provide your team with secure access to the resources they need while protecting company data.
+                  Provide your team with secure access to the resources they
+                  need while protecting company data.
                 </p>
               </div>
             </div>
             <div className='flex gap-3 items-center'>
-              <div className='border rounded-full p-3'><Image src={'/compliance.svg'} width={30} height={30} alt="decorative icon" /></div>
+              <div className='border rounded-full p-3'>
+                <Image
+                  src={"/compliance.svg"}
+                  width={30}
+                  height={30}
+                  alt='decorative icon'
+                />
+              </div>
               <div>
                 <h4 className='font-medium'>Ensure data compliance</h4>
                 <p className='text-sm text-gray-400'>
-                Streamline data management processes and comply with industry regulations with ease.
+                  Streamline data management processes and comply with industry
+                  regulations with ease.
                 </p>
               </div>
             </div>
             <div className='flex gap-3 items-center'>
-              <div className='border rounded-full p-3'><Image src={'/risk.svg'} width={30} height={30} alt="decorative icon" /></div>
+              <div className='border rounded-full p-3'>
+                <Image
+                  src={"/risk.svg"}
+                  width={30}
+                  height={30}
+                  alt='decorative icon'
+                />
+              </div>
               <div>
                 <h4 className='font-medium'>Reduce security risks</h4>
                 <p className='text-sm text-gray-400'>
-                Minimize the risk of data breaches and cyberattacks with decentralized data storage.
+                  Minimize the risk of data breaches and cyberattacks with
+                  decentralized data storage.
                 </p>
               </div>
             </div>
             <div className='flex gap-3 items-center'>
-              <div className='border rounded-full p-3'><Image src={'/collaboration.svg'} width={30} height={30} alt="decorative icon" /></div>
+              <div className='border rounded-full p-3'>
+                <Image
+                  src={"/collaboration.svg"}
+                  width={30}
+                  height={30}
+                  alt='decorative icon'
+                />
+              </div>
               <div>
                 <h4 className='font-medium'>Improve collaboration</h4>
                 <p className='text-sm text-gray-400'>
-                Facilitate secure and efficient data sharing between employees and partners.
+                  Facilitate secure and efficient data sharing between employees
+                  and partners.
                 </p>
               </div>
             </div>
-
           </div>
         </div>
       </div>
