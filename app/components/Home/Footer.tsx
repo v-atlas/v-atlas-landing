@@ -1,6 +1,7 @@
 'use client';
 import { useState } from 'react';
 import ContactModal from '../Modal/ContactModal';
+import Link from 'next/link';
 
 const Footer = () => {
   const [showModal, setShowModal] = useState(false);
@@ -56,14 +57,23 @@ const Footer = () => {
         </div>
         <div className='grid grid-cols-2 lg:grid-cols-4 gap-3 border-t pt-8 border-antiflash-white'>
           <div>
-            VAtlas
+          <Link href="/" className="ms-2 flex md:me-24">
+              <img
+                src="/logo.svg"
+                className="me-3 h-12"
+                alt="VAtlas Logo"
+              />
+              <span
+                className="self-center whitespace-nowrap text-xl font-semibold sm:text-2xl"
+                >VAtlas</span>
+            </Link>
             <div className='mt-8 space-y-3'>
               <div>Privacy policy</div>
               <div>Terms of service</div>
             </div>
           </div>
           <div>
-            251 Little Falls Drive, Wilmington, New Castle County, Delaware.
+            Anywhere in the world, 5 global avenue, Worldwide
           </div>
           <div>hello@VAtlas.com</div>
           <div className='flex gap-4 flex-wrap'>
