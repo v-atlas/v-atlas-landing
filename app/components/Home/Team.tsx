@@ -139,7 +139,7 @@ const Team = () => {
               <Image
                 width={500}
                 height={500}
-                className='w-full rounded-lg sm:rounded-none sm:rounded-l-lg'
+                className='w-full rounded-lg sm:rounded-none sm:rounded-l-lg object-cover aspect-square object-top'
                 src='/david.jpeg'
                 alt='David Avatar'
               />
@@ -196,14 +196,13 @@ const Team = () => {
           </div>
           <div className='items-center bg-black rounded-lg shadow sm:flex '>
             <div className='basis-1/2 text-antiflash-white text-center'>
-              {/* <Image
-              width={500}
-              height={500}
-              className='w-full rounded-lg sm:rounded-none sm:rounded-l-lg'
-              src='/emeka.jpeg'
-              alt='Clinton Avatar'
-            /> */}
-              To be added
+              <Image
+                width={500}
+                height={500}
+                className='w-full rounded-lg sm:rounded-none sm:rounded-l-lg object-cover aspect-square'
+                src='/clinton.jpeg'
+                alt='Clinton Avatar'
+              />
             </div>
 
             <div className='p-5 basis-1/2'>
